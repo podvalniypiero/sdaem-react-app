@@ -17,6 +17,7 @@ function App() {
 
     <div className='footer-container'>
 
+    <div className='footer-container-main'>
       <div className='logo-container'>
     <img width="" height=""src="/img/logo.png" alt="SDAEM.BY" className='logo'/>
     <p className='logo-translate'>СДАЁМ БАЙ</p>
@@ -30,11 +31,11 @@ function App() {
     </div>
 
     <div className='info-container'>
-      {/* <div className='info-container-left'> */}
+    
     <p className='info-bold'>Коттеджи и усадьбы</p>
     <p className='info-bold'>Бани и сауны</p>
     <p className='info-bold'>Авто на прокат</p>
-    {/* </div> */}
+ 
     <p className='info-bold'>Квартиры</p>
     <p className='info-list'>Квартиры в Минске</p>
     <p className='info-list'>Квартиры в Гомеле</p>
@@ -48,7 +49,8 @@ function App() {
     <p className='info-nav'>Объявления на карте</p>
     <p className='info-nav'>Контакты</p>
     </div>
-
+    
+    </div>
     <div className='social-list'>
     <div className='social-list-item'>
       <p>Мы в соцсетях</p> 
@@ -67,9 +69,10 @@ function App() {
       <img src='/img/belkart.jpg' alt='belkart'/>
 
     </div>
-
-
     </div>
+
+
+    
 
 
     </footer>

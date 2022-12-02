@@ -6,8 +6,7 @@ font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 footer{
-    display: grid;
-    grid-template-rows: 1,250px;
+    height: 250px;
     
 }
 
@@ -23,8 +22,8 @@ footer{
 
     width: 1440px;
     height: 250px;
-    
 
+   
     .logo-translate{
 
     font-weight: 500;
@@ -32,9 +31,9 @@ footer{
     line-height: 15px;
 
     }
+    
     .info{
 
-        
         font-weight: 400;
         font-size: 11px;
         line-height: 13px;
@@ -77,20 +76,34 @@ footer{
         img{
             margin-right: 17px;
         }
+        display: grid;
+        grid-template-columns: 42px 86px 38px 26px 46px 32px;
+        column-gap: 15px;
     }
     .logo-container{
-        display: grid;
-        
-        grid-template-columns: max-content;
-        grid-template-rows: auto auto 65px;
+        flex-direction: column;
+        margin-right: 25px;
+        .info{
+            margin-top: 41px;
+        }
     }
 
     .info-container{
         
-        display: grid;
-        grid-auto-flow:row;
-        grid-template-columns: 136px 152px 156px;
-        grid-template-rows: auto;
+       
+       display: grid;
+       grid-auto-flow: column;
+       grid-template-rows: 17px 17px 17px 17px;
+
+       
         
     }
+    .social-list-item{
+     
+    
+      display: grid;
+      grid-template-columns: 105px 30px 30px 30px;
+      column-gap: 25px;
+    }
+    
     }
