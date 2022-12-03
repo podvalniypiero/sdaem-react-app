@@ -1,5 +1,6 @@
 
 import styles from './Footer.module.scss';
+import { Route, Link } from 'react-router-dom';
 
 
 

@@ -1,5 +1,6 @@
 
 import styles from './Header.module.scss';
+import { Route, Link } from 'react-router-dom';
 
 
 function Header(){
