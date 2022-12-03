@@ -1,1 +1,152 @@
+footer{
+    height: 250px;
+    
+}
+
+.footer-container{
+    position: absolute;
+    
+    margin-right: 78px;
+    margin-top: 3637.92px;
+    color: #8291A3;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin-bottom: 43px;
+    
+    width: 100%;
+    
+    box-shadow: 0px -11px 40px rgba(39, 95, 158, 0.05);
+
+}
+.footer-container-main{
+    margin-top: 39px;
+    
+    
+}
+    .logo-translate{
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    }
+    
+    .info{
+
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        width: 297px;
+        height: 78px;
+    }
+    .info-bold{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1E2123;
+    }
+    .info-list{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .info-nav {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .payment-list{
+        img{
+            margin-right: 17px;
+        }
+        display: grid;
+        grid-template-columns: 42px 86px 38px 26px 46px 32px;
+        column-gap: 15px;
+    }
+    .logo-container{
+        margin-left: 78px;
+        flex-direction: column;
+        margin-right: 25px;
+        .info{
+            margin-top: 41px;
+        }
+    }
+
+    .info-container{
+        
+       ul{
+        list-style: none;
+       }
+       .colOne{
+         li{
+            margin-bottom: 19px;
+         }
+       }
+       .colTwo{
+        li{
+            margin-bottom: 8px;
+        }
+        .info-bold{
+            margin-bottom: 12px;
+        }
+       }
+       .colThree{
+        li{
+            margin-bottom: 8px;
+        }
+        .one{
+            margin-top: 29px;
+        }
+       }
+       .colFour{
+        li{
+            margin-bottom: 8px;
+        }
+
+       }
+       display: grid;
+       column-gap: 15px;
+       grid-template-columns: 329px  218px 189px 249px 297px ;
+      
+
+       
+        
+    }
+    .social-list-item{
+        img{
+            margin-left: 21px;
+        }
+      display: grid;
+      grid-template-columns: 105px 30px 30px 30px;
+      column-gap: 25px;
+      justify-items:flex-end;
+      margin-bottom: 43px;
+    }
+    .social-list{
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #1E2123;
+            
+            
+            
+        }
+        margin-left: 380px;
+        display: grid;
+        grid-template-columns: 286px auto;
+        grid-row: auto;
+        column-gap: 286px;
+        margin-bottom: 43px;
+
+        
+    }
+    
+    .footer-link{
+        
+    }
+    
 
