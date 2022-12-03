@@ -23,7 +23,7 @@ footer{
     width: 1440px;
     height: 250px;
 
-   
+}
     .logo-translate{
 
     font-weight: 500;
@@ -90,10 +90,40 @@ footer{
 
     .info-container{
         
-       
+       ul{
+        list-style: none;
+       }
+       .colOne{
+         li{
+            margin-bottom: 19px;
+         }
+       }
+       .colTwo{
+        li{
+            margin-bottom: 8px;
+        }
+        .info-bold{
+            margin-bottom: 12px;
+        }
+       }
+       .colThree{
+        li{
+            margin-bottom: 8px;
+        }
+        .one{
+            margin-top: 29px;
+        }
+       }
+       .colFour{
+        li{
+            margin-bottom: 8px;
+        }
+
+       }
        display: grid;
-       grid-auto-flow: column;
-       grid-template-rows: 17px 17px 17px 17px;
+       column-gap: 15px;
+       grid-template-columns: 329px  218px 189px 249px 297px ;
+      
 
        
         
@@ -106,4 +136,4 @@ footer{
       column-gap: 25px;
     }
     
-    }
+    

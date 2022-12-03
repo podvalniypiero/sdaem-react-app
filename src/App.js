@@ -18,6 +18,8 @@ function App() {
     <div className='footer-container'>
 
     <div className='footer-container-main'>
+    <div className='info-container'>
+
       <div className='logo-container'>
     <img width="" height=""src="/img/logo.png" alt="SDAEM.BY" className='logo'/>
     <p className='logo-translate'>СДАЁМ БАЙ</p>
@@ -30,24 +32,32 @@ function App() {
     </p>
     </div>
 
-    <div className='info-container'>
+    <ul className='colOne'>
     
-    <p className='info-bold'>Коттеджи и усадьбы</p>
-    <p className='info-bold'>Бани и сауны</p>
-    <p className='info-bold'>Авто на прокат</p>
+    <li className='info-bold'>Коттеджи и усадьбы</li>
+    <li className='info-bold'>Бани и сауны</li>
+    <li className='info-bold'>Авто на прокат</li>
+    </ul>
  
-    <p className='info-bold'>Квартиры</p>
-    <p className='info-list'>Квартиры в Минске</p>
-    <p className='info-list'>Квартиры в Гомеле</p>
-    <p className='info-list'>Квартиры в Бресте</p>
-    <p className='info-list'>Квартиры в Витебске</p>
-    <p className='info-list'>Квартиры в Гродно</p>
-    <p className='info-list'>Квартиры в Могилеве</p>
-  
-    <p className='info-nav'>Новости</p>
-    <p className='info-nav'>Размещение и тарифы</p>
-    <p className='info-nav'>Объявления на карте</p>
-    <p className='info-nav'>Контакты</p>
+    <ul className='colTwo'>
+    <li className='info-bold'>Квартиры</li>
+    <li className='info-list'>Квартиры в Минске</li>
+    <li className='info-list'>Квартиры в Гомеле</li>
+    <li className='info-list'>Квартиры в Бресте</li>
+    </ul>
+
+    <ul className='colThree'>
+    <li className='info-list one'>Квартиры в Витебске</li>
+    <li className='info-list'>Квартиры в Гродно</li>
+    <li className='info-list'>Квартиры в Могилеве</li>
+    </ul>
+
+    <ul className='colFour'>
+    <li className='info-nav'>Новости</li>
+    <li className='info-nav'>Размещение и тарифы</li>
+    <li className='info-nav'>Объявления на карте</li>
+    <li className='info-nav'>Контакты</li>
+    </ul>
     </div>
     
     </div>
