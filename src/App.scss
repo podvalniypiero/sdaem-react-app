@@ -7,7 +7,6 @@ font-family: 'Roboto', sans-serif;
 }
 footer{
     height: 250px;
-    
 }
 
 .footer-container{
@@ -18,7 +17,7 @@ footer{
     color: #8291A3;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    margin-bottom: 49px;
+    margin-bottom: 46px;
 
     width: 1440px;
     height: 250px;
@@ -55,21 +54,6 @@ footer{
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-    }
-    .social-list{
-        p{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 17px;
-            color: #1E2123;
-        }
-    }
-    .social-list-item{
-        img{
-            margin-right: 21px;
-        }
     }
 
     .payment-list{
@@ -129,11 +113,28 @@ footer{
         
     }
     .social-list-item{
-     
-    
+        img{
+            margin-right: 21px;
+        }
       display: grid;
       grid-template-columns: 105px 30px 30px 30px;
       column-gap: 25px;
+      justify-items:flex-end;
+    }
+    .social-list{
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #1E2123;
+            
+        }
+        margin-left: 380px;
+        display: grid;
+        grid-template-columns: 286px auto;
+        column-gap: 286px;
     }
     
     

@@ -62,6 +62,7 @@ function App() {
     
     </div>
     <div className='social-list'>
+
     <div className='social-list-item'>
       <p>Мы в соцсетях</p> 
         <img src='/img/inst.jpg' alt='inst'  />
@@ -69,7 +70,7 @@ function App() {
         <img src='/img/fb.jpg' alt='fb'  />
 
       </div>
-    </div>
+    
     <div className='payment-list'>
       <img src='/img/visa.jpg' alt='visa'/>
       <img src='/img/webpay.jpg' alt='webpay'/>
@@ -80,11 +81,7 @@ function App() {
 
     </div>
     </div>
-
-
-    
-
-
+    </div>
     </footer>
      </div>
   );
